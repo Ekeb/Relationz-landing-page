@@ -5,6 +5,7 @@ width: 998px;
 height: 3653.1px;
 box-shadow: 0px 80px 240px rgba(136, 116, 116, 0.25), 80px -40px 80px rgba(172, 143, 143, 0.13), 40px 16px 80px rgba(172, 143, 143, 0.05);
 border-radius: 12px;
+font-family: "gilroy";
 }
 
 h3{
@@ -24,7 +25,6 @@ line-height: 29px;
 text-align: center;
 color: #222222;
 }
-
 
 .head{
 list-style-type:none;
@@ -65,12 +65,13 @@ left: 338.9px;
 top: -5.41px;
 float: center;
 border: 0 solid #000000;
+
 }
 
 .img1{
  position: absolute;
- left: 6.5%;
- top: 28.5%;
+ left: 11.5%;
+ top: 29.5%;
  bottom: 93.55%;
  float: center;
  border: 0 solid #000000;
@@ -151,6 +152,7 @@ margin-right: 10px;
     border:0px solid red;
     margin-left:1px;
     margin-right: -50px;
+
 }
 
 .Multichannels{
@@ -163,42 +165,173 @@ margin-right: 10px;
 }
 
 .vector4{
-    float: right;
-    margin-top:20px;
-    margin-right:-55px;
-  
+    /* Vector */
+position: absolute;
+width: 40.2px;
+height: 40.2px;
+left: 740px;
+top: 113px;
+
 }
 
 .vector3{
-    float: right;
-    margin-top:420px;
-    margin-right:-270px; 
-    mix-blend-mode:;  
+  /* Vector */
+position: absolute;
+width: 60.99px;
+height: 60.99px;
+left: 932px;
+top: 518px;
+z-index: 1px;
+
 }
 
 .vector5{
     margin-top:497.99px;
 }
+/*
+.icons{
+width: 24.95px;
+height: 24.95px;
+left: 429.69px;
+top: 697.21px;
 
-p.icons{
-    display:flex;
-    justify-content: space-around;
+background: rgba(25, 67, 239, 0.1);
+border-radius: 38.2047px;
 }
+*/
 
 .Reminders2{
-  
-   
-      
+/* Union */
+position: absolute;
+width: 11.48px;
+height: 12.99px;
+left: 203.76px;
+top: 703.45px;
+padding: 5px;
+background: rgba(25, 67, 239, 0.1);
+border-radius: 38.2047px;
+
+}
+
+.reminder3{
+position: absolute;
+left: 235.76px;
+top: 722.986px;
+color: #222222;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 14.5542px;
+line-height: 150%;
+font-size: 14.5542px;
 }
 
 .Sync{
+/* Group */
+position: absolute;
+left: 33.61%;
+right: 55%;
+top: 703.45px;
+bottom: 80.43%;
+padding: 5px;
+background: rgba(25, 67, 239, 0.1);
+border-radius: 38.2047px;
 
-    
+
+
+}
+.Sync2{
+    position: absolute;
+    left: 470px;
+    top:693.06px;
+    color: #1616B3;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    font-size: 14.5542px;
 }
 
-.Multi{
-    border: 2px solid blue;
 
+.multi{
+/* Group */
+position: absolute;
+left: 50.94%;
+right: 31.67%;
+top: 700.45px;
+bottom: 80.39%;
+padding: 5px;
+background: rgba(25, 67, 239, 0.1);
+border-radius: 38.2047px;
+
+
+}
+
+.multi2{
+/* The multichannel */
+position: absolute;
+width: 115.74px;
+height: 22.18px;
+left: 693.06px;
+top: 690.6px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 14.5542px;
+line-height: 150%;
+/* or 22px */
+color: #1616B3;
+}
+
+
+.rectangle{
+    position: absolute;
+    width: 171.18px;
+    height: 2.77px;
+    left: 176.04px;
+    top: 733.25px;
+
+    background: rgba(25, 67, 239, 0.1);
+    border-radius: 47.8208px;
+
+}
+.rectangleB{
+    position: absolute;
+    width: 98.41px;
+    height: 2.77px;
+    left: 176.04px;
+    top: 733.25px;
+    background: #1943EF;
+    border-radius: 47.8208px;
+}
+.rectangleC{
+    position: absolute;
+    width: 171.18px;
+    height: 2.77px;
+    left: 413.06px;
+    top: 733.25px;
+    background: rgba(25, 67, 239, 0.1);
+    border-radius: 47.8208px;
+}
+
+.rectangleD{   
+    position: absolute;
+    width: 171.18px;
+    height: 2.77px;
+    left: 650.09px;
+    top: 733.25px;
+    background: rgba(25, 67, 239, 0.1);
+    border-radius: 47.8208px;
+}
+
+.icon{
+position: absolute;
+width: 24.95px;
+height: 24.95px;
+left: 429.69px;
+top: 697.21px;
+background: rgba(25, 67, 239, 0.1);
+border-radius: 38.2047px;
 }
 
 aside2{
@@ -251,57 +384,142 @@ border: 0.693056px solid #EAEDF3;
 }
 
 .overview{
-    margin-bottom: -50px;
-    color: #5d43f1;
-    
-    
+/* Overview */
+margin-left: 30px;
 }
 
+.overview2{
+   /* Vector */
+position: absolute;
+width: 15.51px;
+height: 15.92px;
+left: 20.56px;
+top: 115.56px;
+background: #1943EF;     
+}
+
+
 .followup{
-    margin-top: 70px;
-    color: #222222;
-    opacity: 0.3;
+margin-top: 5px;
+margin-left: 30px;
+/* Black */
+color: #222222;
+opacity: 0.3;
+}
+
+.followup2{
+/* Vector */
+position: absolute;
+width: 13.51px;
+height: 12.48px;
+left: 20.56px;
+top: 155.08px;
+
 }
 
 .contact{
-    
     margin-top: 15px;
+    margin-left: 30px;
     color: #222222;
     opacity: 0.3;
+}
+.contact2{
+/* Vector */
+position: absolute;
+width: 13.51px;
+height: 12.48px;
+left: 20.56px;
+top: 190.08px;   
 }
 
 .value{
     margin-top: 15px;
+    margin-left: 30px;
     color: #222222;
     opacity: 0.3;
+}
+
+.value2{
+ /* Vector */
+position: absolute;
+width: 13.51px;
+height: 12.48px;
+left: 20.56px;
+top: 225.08px;     
 }
 
 .grouping{
     margin-top: 15px;
+    margin-left: 30px;
     color: #222222;
     opacity: 0.3;
+}
+
+.grouping2{
+  /* Vector */
+position: absolute;
+width: 13.51px;
+height: 12.48px;
+left: 20.56px;
+top: 265.08px;   
 }
 
 .messages{
-    margin-top: 15px;
-    color: #222222;
-    opacity: 0.3;
+margin-top: 15px;
+margin-left: 30px;
+color: #222222;
+opacity: 0.3;
+}
+.messages2{
+  /* Vector */
+position: absolute;
+width: 13.51px;
+height: 12.48px;
+left: 20.56px;
+top: 300.08px;  
 }
 
 .Report{
-    margin-top: 15px;
-    color: #222222;
-    opacity: 0.3;
+margin-top: 15px;
+margin-left: 30px;
+color: #222222;
+opacity: 0.3;
 }
+
+.Report2{
+position: absolute;
+width: 13.51px;
+height: 12.48px;
+left: 20.56px;
+top: 333.08px;  
+}
+
 .logout{
-margin-top: 40px;
-border: 0px solid rgb(62, 65, 63);
+/* Logout */
+position: absolute;
+margin-top: 15px;
+margin-left: -10px;
+top:  404px;   
+color: #222222;
+opacity: 0.3;
+border: 2px solid rgb(252, 251, 248);
+padding-right: 60px;
+padding-bottom: 10px;
+padding-left: 40px;
+background-color: #d4cccc;
 border-radius: 5.54444px;
-text-align: center;
-margin-right: 20px;
-background-color: #f5eded;
-color:#cccbcb;
 }
+
+.logout2{
+    position: absolute;
+    width: 13.51px;
+    height: 15.48px;
+    left: 85.56px;
+    top: 5px; 
+    border-radius: 2px solid blue;  
+    background: #1616B3; 
+}
+
 
 .search1{
     border: 1px solid green;
@@ -385,6 +603,9 @@ nav3{
     float: right;
     margin-right: 20px;
     margin-top: 5px;
+    width: 6.2px;
+    height: 3.2px;
+    font-size: 10;
 }
 
 .Rohan{
@@ -398,6 +619,17 @@ nav3 h5{
     margin-left: -215px;
     color: #ffffff;
 
+}
+
+.emptyvector{
+    /* Vector */
+position: absolute;
+width: 595.33px;
+    height: 127.52px;
+    left: 20.89px;
+
+top: -15.0px;
+background: rgba(255, 255, 255, 0.2);
 }
 
 .getstarted{
@@ -421,14 +653,1464 @@ nav4{
 
 }
 
+nav4 p{
+    /* Group */
+position: absolute;
+width: 12.48px;
+height: 2.77px;
+left: 537.81px;
+top: 1026.42px;
+list-style-type: none;
+opacity: 0.4;
+}
+
+.person{
+/* Rectangle */
+position: absolute;
+width: 182.67px;
+height: 24.95px;
+left:30px;
+top: 32.06px;
+display: flex;
+justify-content: space-around;
+/* Black */
+background: #f0f0f0;
+border-radius: 5.54444px;
+}
+
+
+.person2{
+    /* Person */
+position: absolute;
+width: 130.49px;
+height: 11.78px;
+left:50px;
+top: -30.06px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 9.70278px;
+line-height: 12px;
+/* identical to box height */
+/* Black */
+color: #222222;
+
+}
+
+.last{
+/* Last met on */
+position: absolute;
+width: 52.67px;
+height: 11.78px;
+left: 390.19px;
+top: -30.06px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 9.70278px;
+line-height: 12px;
+/* identical to box height */
+/* Black */
+color: #222222;
+}
+
+.meeting{
+/* Meeting date */
+position: absolute;
+width: 60.99px;
+height: 11.78px;
+left: 400.44px;
+top: -30.06px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 9.70278px;
+line-height: 12px;
+/* identical to box height */
+/* Black */
+color: #222222;
+}
+
+
 nav5{
     position: absolute;
     width: 284.85px;
     height: 255.74px;
-    left: 490.46px;
+    left: 420.46px;
     top: 225.54px;
     background: #FFFFFF;
     box-shadow: 0px 5.54444px 27.7222px rgba(0, 0, 0, 0.05);
     border-radius: 11.0889px;
+
+}
+
+.group2{
+    position: absolute;
+    left: 93.44%;
+    right: 8.92%;
+    top: 90.52%;
+    bottom: 64.79%;
+    z-index:-1;
+}
+
+nav4{
+    display: flex;
+    
+}
+.upcoming{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 11.0889px;
+line-height: 13px;
+color: #222222;
+margin-left: 20px;
+justify-content: space-around;
+
+}
+
+
+.notif2{
+  
+position: absolute;
+width: 22.98px;
+height: 25.98px;
+left: 523.26px;
+top: 1386.11px;
+padding: 10px;
+
+background: #E4F7F2;
+border-radius: 31.8806px;
+border: 0.401632px solid #26C296;
+
+}
+
+.vector7{
+ position: absolute;
+width: 120.18px;
+height: 120.18px;
+left: 39.5px;
+top: 1499.08px;
+}
+
+
+nav6{
+    position: absolute;
+    width: 389.79px;
+    height: 66.53px;
+    left: 101.88px;
+    top: 1466.51px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+    border-radius: 16.6333px;
+}   
+
+.p1{    
+    margin-left: 10px;
+    margin-top: 20px;
+   
+   
+    
+}
+.surhbiport{
+    position: absolute;
+    width: 300.79px;
+    height: 33.96px;
+    left: 50.1px;
+    margin-top: -55px;
+    text-align: justify;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.0889px;
+    line-height: 150%;
+    /* or 17px */
+    color: rgba(34, 34, 34, 0.8);  
+}
+
+.p2{
+    position: absolute;
+    width: 379.79px;
+    height: 50.53px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+    border-radius: 16.6333px;
+}
+
+.ripal{
+    position: absolute;
+    width: 300.79px;
+    height: 33.96px;
+    left: 50px;
+    top: 120.31px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.0889px;
+    line-height: 150%;
+    color: #222222;
+/* or 17px */
+}
+
+.p3{
+    position: absolute;
+    width: 379.79px;
+    height: 50.53px;
+    padding-top: 20px;
+    padding-left: 10px;
+    top: 160.84px;
+    background: #FFFFFF;
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+    border-radius: 16.6333px;
+}
+
+.prashasti{
+    position: absolute;
+    font: Gilroy;
+    width: 300.79px;
+    height: 33.96px;
+    left: 50.1px;
+    top: 210.31px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.0889px;
+    line-height: 150%;
+    color: #222222;
+}
+
+.getreminders{
+    position: absolute;
+    width: 305.64px;
+    height: 30.49px;
+    left: 430.26px;
+    top: -26.51px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.95px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #222222;
+    
+}
+
+.getreminders2{
+    position: absolute;
+    width: 343.06px;
+    height: 88.71px;
+    left: 430.26px;
+    top: 23.63px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 15.5542px;
+    line-height: 150%;
+    /* or 22px */
+    color: #1616B3;
+}
+
+.birthdays{
+    position: absolute;
+    width: 60.51px;
+    height: 8.63px;
+    left: 440.43px;
+    top: 150.98px;
+    color: #1616B3;
+}
+
+.busmeeting{
+    position: absolute;
+    width: 100.51px;
+    height: 8.63px;
+    left: 596.43px;
+    top: 158.98px;
+    color: #1616B3;
+
+}
+
+.friend{
+    position: absolute;
+    width: 95.47px;
+    height: 8.63px;
+    left: 440.43px;
+    top: 192.24px;
+    color: #1616B3;
+    }
+
+.surround{
+    position: absolute;
+    width: 75.23px;
+    height: 8.63px;
+    left: 596.43px;
+    top: 192.24px;
+    color: #1616B3;
+    }
+
+    .syncicon{ 
+        position: absolute;
+        width: 30.98px;
+        height: 30.98px;
+        left: 102.57px;
+        top: 1788.78px;
+        padding: 10px;
+        
+        background: #E4F7F2;
+        border-radius: 31.8806px;
+    }
+
+    .synctext{
+
+        position: absolute;
+        width: 368.01px;
+        height: 30.49px;
+        left: 102.57px;
+        top: 1869.17px;
+        
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24.95px;
+        line-height: 30px;
+        /* identical to box height */
+        
+        
+        color: #222222;
+    }
+
+    .synctext2{
+        position: absolute;
+        width: 343.06px;
+        height: 88.71px;
+        left: 102.57px;
+        top: 1916.3px;
+        
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14.5542px;
+        line-height: 150%;
+        /* or 22px */
+        
+        
+        color: #1616B3;
+    }
+
+    .Available{
+        /* Available on devices */
+        position: absolute;
+        width: 110.65px;
+        height: 8.63px;
+        left: 115.74px;
+        top: 2021.64px;
+        align-items: baseline;
+        color: #1616B3;
+    }
+
+    .phonebook{
+        position: absolute;
+        width: 153.56px;
+        height: 7.63px;
+        left: 259.2px;
+        top: 2021.64px;      
+        color: #1616B3;
+        align-items: baseline;
+    }
+
+    .searchdetails{
+        position: absolute;
+        width: 80.61px;
+        height: 8.63px;
+        left: 115.2px;
+        top: 2054.91px;
+        color: #1616B3;
+        align-items: baseline;
+        
+    }
+
+    .support{      
+        position: absolute;
+        width: 80.61px;
+        height: 8.63px;
+        left: 259.2px;
+        top: 2054.91px;
+        color: #1616B3;
+        align-items: baseline;
+
+    }
+
+    .vector10{
+    /* Vector */
+    position: absolute;
+   left: 700px;
+   top: 2030px;
+    
+
+    }
+    .Archanaprofile{
+        position: absolute;
+        width: 352.07px;
+        height: 209.3px;
+        left: 523.26px;
+        top: 1869.17px;  
+        padding-top: 20px;
+        padding-left: 20px;
+        background: #FFFFFF;
+        box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+        border-radius: 20.7917px;  
+        align-items: baseline;
+    }
+
+    .Archana{
+        
+        position: absolute;
+        width: 149.7px;
+        height: 20.1px;
+        left: 589.79px;
+        top: 1888.58px;
+
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16.6333px;
+        line-height: 20px;
+
+        color: #222222;
+    }
+    .product {
+        /* Product Design Consultant */
+        position: absolute;
+        width: 137.23px;
+        height: 13.17px;
+        left: 589.79px;
+        top: 1911.45px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11.0889px;
+        line-height: 13px;
+        color: rgba(34, 34, 34, 0.8);
+    }
+
+    .moreInfo{
+        position: absolute;
+        width: 137.23px;
+        height: 13.17px;
+        left: 535.79px;
+        top: 1931.45px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11.0889px;
+        line-height: 13px;
+        color: rgba(34, 34, 34, 0.8);
+    }
+
+    .Ages{
+     /* 17 April, 1994 */   
+        position: absolute;
+        width: 100.07px;
+        height: 13.17px;
+        left: 562.07px;
+        top: 1978.97px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 540;
+        font-size: 11.0889px;
+        line-height: 13px;
+
+        color: rgba(34, 34, 34, 0.8);
+    }
+
+.track{
+  /* Product Design Consultant */
+    position: absolute;
+    width: 157.23px;
+    height: 13.17px;
+    left: 562.07px;
+    top: 2005.46px;  
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 540;
+    font-size: 11.0889px;
+    line-height: 13px;
+    color: rgba(34, 34, 34, 0.8);
+        
+        
+    }
+
+
+.placesvisited{
+ /* Went to Amsterdam with parents to visit her brother. */
+
+    position: absolute;
+    width: 266.83px;
+    height: 13.17px;
+    left: 562.07px;
+    top: 2032.96px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 540;
+    font-size: 11.0889px;
+    line-height: 120%;
+    /* identical to box height, or 13px */
+    color: rgba(34, 34, 34, 0.8);
+
+        }
+
+.connection{
+position: absolute;
+width: 31.98px;
+height: 31.98px;
+left: 523.26px;
+top: 2191.44px;
+padding: 10px;
+background: #E4F7F2;
+border-radius: 31.8806px;
+}
+
+.vector11{
+    /* Vector */
+position: absolute;
+width: 110.18px;
+height: 120.18px;
+left: 67.92px;
+top: 2224.71px;
+}
+
+.contentpage{
+    /* Rectangle */
+position: absolute;
+width: 379.79px;
+height: 253.08px;
+left: 101.88px;
+top: 2243.42px;
+background: #FFFFFF;
+box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+border-radius: 20.7917px;
+}
+
+.sendcontent{
+/* Send content around anxiety */
+position: absolute;
+width: 224.55px;
+height: 20.1px;
+left: 118.51px;
+top: 2268.37px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16.6333px;
+line-height: 20px;
+
+color: #222222;
+}
+
+.elipse{
+  /* Ellipse */
+   
+position: absolute;
+width: 12.47px;
+height: 2.77px;
+left: 451.18px;
+top: 2258.77px;
+font-size: 25px;
+opacity: 0.4;
+}
+
+.list{
+    /* 3 people on the list */
+    position: absolute;
+    width: 97.03px;
+    height: 13.17px;
+    left: 122.51px;
+    top: 2291.24px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 13px;
+
+    color: rgba(34, 34, 34, 0.8);
+ }
+
+ .sendingto{
+    position: absolute;
+    width: 50.59px;
+    height: 11.09px;
+    left: 128.51px;
+    top: 2322.43px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9.70278px;
+    line-height: 11px;
+    /* identical to box height */
+    color: rgba(34, 34, 34, 0.6);
+ }
+
+.Archana2{
+    /* Archana Kamath */
+    position: absolute;
+    width: 110.94px;
+    height: 15.17px;
+    left: 125.3px;
+    top: 2343.22px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.0889px;
+    line-height: 13px;
+    color: rgba(34, 34, 34, 0.8);
+}
+
+ .surojit2{
+/* Surojit Saraswat */
+    position: absolute;
+    width: 110.17px;
+    height: 15.17px;
+    left: 247.97px;
+    top: 2343.91px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.0889px;
+    line-height: 13px;
+    color: rgba(34, 34, 34, 0.8);
+    }
+
+ .surhbi2{
+/* Surbhi Gangwar */
+    position: absolute;
+    width: 110.17px;
+    height: 15.17px;
+    left: 367.87px;
+    top: 2343.91px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.0889px;
+    line-height: 13px;
+    color: rgba(34, 34, 34, 0.8);
+    }
+
+    .worry{
+/* We all worry and get upset from time to time. It’s a normal part of life, right? But what happens when that anxiety or anger takes over, and you can’t calm down? Being able to calm yourself in the mome... */
+position: absolute;
+width: 307.17px;
+height: 58.76px;
+left: 130.99px;
+top: 2380.65px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 9.70278px;
+line-height: 180%;
+/* or 17px */
+color: rgba(115, 115, 141, 0.8);
+
+background: #FBFBFD;
+border-radius: 5.54444px;
+padding: 10px;
+padding-right: 25px;
+    }
+
+.sendemail{
+    /* Send on Email as well */
+position: absolute;
+width: 139.5px;
+height: 8.63px;
+left: 137.92px;
+top: 2465.2px;
+align-items: baseline;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 550;
+font-size: 12.0889px;
+line-height: 150%;
+/* identical to box height, or 17px */
+color: #1616B3;
+
+}
+
+
+.sendemail img{
+  border: 1px solid rgb(27, 218, 27);  
+}
+
+.send{
+    /* Send */
+position: absolute;
+width: 73.56px;
+height: 11.78px;
+left: 388.87px;
+top: 2457.2px;
+padding: 10px;
+font-family: 'Gilroy';
+font-style: normal;
+text-align: center;
+font-weight: 600;
+font-size: 9.70278px;
+line-height: 12px;
+/* identical to box height */
+background: #26C296;
+border-radius: 23.5639px;
+color: #FFFFFF;
+
+}
+
+.stayconnected{
+    /* Stay connected in a few clicks */
+position: absolute;
+width: 346.53px;
+height: 30.49px;
+left: 523.26px;
+top: 2271.84px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 24.95px;
+line-height: 30px;
+/* identical to box height */
+color: #222222;
+}
+
+.salestext2{
+/* The multichannel sales engagement platform which automates personal email outreach, calls, and tasks, while Sales can focus on what really matters - closing */
+position: absolute;
+width: 343.06px;
+height: 88.71px;
+left: 523.26px;
+top: 2318.96px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 14.5542px;
+line-height: 150%;
+/* or 22px */
+color: #1616B3;
+}
+
+.multichannel1{
+    /* The multichannel */
+position: absolute;
+width: 100.32px;
+height: 8.63px;
+left: 536.43px;
+top: 2424.31px;
+align-items: baseline;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 10.0889px;
+line-height: 150%;
+/* identical to box height, or 17px */
+color: #1616B3;
+}
+
+.multichannel2{
+    /* The multichannel */
+position: absolute;
+width: 100.32px;
+height: 8.63px;
+left: 659.1px;
+top: 2424.31px;
+align-items: baseline;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 10.0889px;
+line-height: 150%;
+/* identical to box height, or 17px */
+color: #1616B3;
+}
+
+.multichannel3{
+    /* The multichannel */
+position: absolute;
+width: 100.32px;
+height: 8.63px;
+left: 536.43px;
+top: 2457.58px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 10.0889px;
+line-height: 150%;
+/* identical to box height, or 17px */
+color: #1616B3;
+}
+
+.multichannel4{
+/* The multichannel */
+position: absolute;
+width: 100.32px;
+height: 8.63px;
+left: 659.1px;
+top: 2457.57px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 10.0889px;
+line-height: 150%;
+/* identical to box height, or 17px */
+color: #1616B3;
+}
+
+.customers{
+/* What our customers are saying */
+
+
+position: absolute;
+width: 360.39px;
+height: 30.49px;
+left: 318.81px;
+top: 2585.1px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 24.95px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+
+color: #222222;
+}
+
+
+.img2{
+    /* Image */
+    position: absolute;
+    width: 47.72px;
+    height: 47.72px;
+    left: 59.6px;
+    top: 2615.59px;
+
+}
+
+.img3{
+/* Image */
+position: absolute;
+width: 71.98px;
+height: 71.98px;
+left: 149.01px;
+top: 2679.35px;
+border-radius: 76.9292px;
+}
+
+.img4{
+/* Rectangle */
+box-sizing: border-box;
+position: absolute;
+width: 106.63px;
+height: 106.63px;
+left: 456.03px;
+top: 2665.49px;
+/*z-index: ;*/
+}
+
+.img5{
+
+    position: absolute;
+    width: 61.58px;
+    height: 61.58px;
+    left: 775.53px;
+    top: 2653.71px;
+
+}
+.img6{
+    /* Image */
+position: absolute;
+width: 71.98px;
+height: 71.98px;
+left: 894.04px;
+top: 2874.79px;
+
+}
+
+.img7{
+/* Image */
+position: absolute;
+width: 65.44px;
+height: 85.44px;
+left: -0.32px;
+top: 2912.91px;
+}
+
+
+.profile{
+/* Rectangle */
+position: absolute;
+width: 501.77px;
+height: 301.48px;
+left: 248.11px;
+top: 2709.15px;
+
+background: #FFFFFF;
+box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+border-radius: 8.31667px;
+}
+
+.name{
+/* Michelle Johnson, Australia */
+position: absolute;
+width: 182.97px;
+height: 17.33px;
+left: 407.52px;
+top: 2798.76px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 14.5542px;
+line-height: 17px;
+/* identical to box height */
+color: #222222;
+
+}
+
+.description{
+    /* The multichannel sales engagement platform which automates personal email outreach, calls, and tasks, while Sales can focus on what really matters - closing while Sales can focus on what really matters - closing */
+position: absolute;
+width: 451.87px;
+height: 88.71px;
+left: 273.06px;
+top: 2827.67px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 14.5542px;
+line-height: 150%;
+/* or 22px */
+text-align: center;
+color: #1616B3;
+}
+
+.img8{
+    /* Image */
+position: absolute;
+width: 110.89px;
+height: 49.9px;
+left: 443.56px;
+top: 2933.01px;
+}
+
+.img9{
+    /* Image */
+position: absolute;
+width: 67.44px;
+height: 60.44px;
+left: 945.28px;
+top: 2580.87px;
+ 
+  }
+  
+  .vector16{
+/* Vector */
+position: absolute;
+width: 47.53px;
+height: 47.53px;
+left: 968.04px;
+top: 2585.32px;
+border-radius: 76.9292px; 
+background: #64CCE3;
+  }
+
+.flag1{  
+position: absolute;
+width: 11.41px;
+height: 16.63px;
+left: 485.83px;
+top: 2802.72px;
+
+background: #26C296;
+}
+
+.flag2{
+position: absolute;
+width: 11.41px;
+height: 16.63px;
+left: 501.08px;
+top: 2802.72px;
+
+background: #26C296;
+}
+
+.group7{
+    /* Group */
+position: absolute;
+left: 95.32%;
+right: 23.99%;
+top: 90.9%;
+bottom: 16.9%;
+z-index: -1;
+}
+
+
+.group8{
+    /* Group */
+position: absolute;
+width: 58.91px;
+height: 5.54px;
+left: 469.2px;
+top: 3043.9px;
+}
+
+.vector14{
+/* Vector */
+position: absolute;
+width: 60.99px;
+height: 60.99px;
+left: 77.23px;
+top: 3165.33px;
+}
+
+.relationship{
+/* Rectangle */
+position: absolute;
+width: 792.86px;
+height: 85.36px;
+left: 101.19px;
+top: 3171.42px;
+padding-left: 20px;
+padding-top: 35px;
+background: #FFFFFF;
+box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+border-radius: 8.31667px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 24.95px;
+line-height: 30px;
+/* identical to box height */
+color: #222222;
+
+}
+
+.trial{
+  /* Start your free 14 days trial. */
+position: absolute;
+width: 138.61px;
+height: 16.63px;
+left: 123.36px;
+top: 3242.11px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 150%;
+/* identical to box height, or 17px */
+color: #1616B3;
+}
+
+.free{
+    /* Try it for free */
+position: absolute;
+width: 74.45px;
+height: 13.17px;
+left: 763.75px;
+top: 3216.87px;
+padding: 15px 30px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 11.0889px;
+line-height: 13px;
+/* identical to box height */
+color: #FFFFFF;
+background: #26C296;
+border-radius: 33.9597px;
+}
+
+
+.footerlinks{
+position: absolute;
+font-family: 'Gilroy';
+font-style: normal;
+
+/* identical to box height, or 79% */
+
+list-style-type:none ;
+}
+
+.relationz3{
+    /* Relationz */
+position: absolute;
+width: 71.38px;
+height: 13.17px;
+left: 116.43px;
+top: 2600px;
+font-weight: 600;
+font-size: 16.6333px;
+/* identical to box height, or 79% */
+color: #222222;
+}
+
+.product2{
+    /* Product Tour */
+position: absolute;
+width: 64.45px;
+height: 13.17px;
+left: 116.43px;
+top: 2630.89px;
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+
+color: #1616B3;
+}
+
+.pricing{
+    /* Pricing */
+position: absolute;
+width: 34.65px;
+height: 13.17px;
+left: 116.43px;
+top: 2650.54px;
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+
+color: #1616B3;
+
+}
+
+.members{
+/* Founding Members */
+position: absolute;
+width: 97.72px;
+height: 13.17px;
+left: 116.43px;
+top: 2670.18px;
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+color: #1616B3;
+
+}
+
+.casestudy{
+    /* Case Studies */
+position: absolute;
+width: 67.23px;
+height: 13.17px;
+left: 116.43px;
+top: 2690.82px;
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+color: #1616B3;
+}
+
+.footerlinks2{
+    /* Company */       
+position: absolute;
+font-family: 'Gilroy';
+font-style: normal;
+display: flex;
+align-items: center;
+list-style-type: none;
+}
+
+.company{
+    /* Company */
+position: absolute;
+width: 75.54px;
+height: 13.17px;
+left: 339.6px;
+top: 2600px;
+
+font-weight: 600;
+font-size: 16.6333px;
+line-height: 13px;
+/* identical to box height, or 79% */
+color: #222222;
+}
+
+.blog{
+    /* Blog */
+position: absolute;
+width: 23.56px;
+height: 13.17px;
+left: 339.6px;
+top: 2630.89px;
+
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+color: #1616B3;
+
+}
+
+.career{
+/* Career */
+position: absolute;
+width: 35.35px;
+height: 13.17px;
+left: 339.6px;
+top: 2650.54px;
+
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+color: #1616B3;
+}
+
+.privacy{
+    /* Privacy */
+position: absolute;
+width: 37.42px;
+height: 13.17px;
+left: 339.6px;
+top: 2670.18px;
+
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+color: #1616B3;
+}
+
+.about2{
+    /* About */
+position: absolute;
+width: 31.88px;
+height: 13.17px;
+left: 338.21px;
+top: 2690.82px;
+
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+color: #1616B3;
+}
+
+.footerlink3{
+position: absolute;
+font-family: 'Gilroy';
+font-style: normal;
+display: flex;
+align-items: center;
+list-style-type: none;
+
+}
+
+.support2{
+/* Support */
+position: absolute;
+width: 62.38px;
+height: 13.17px;
+left: 562.76px;
+top: 2600px;
+
+font-weight: 600;
+font-size: 16.6333px;
+line-height: 13px;
+/* identical to box height, or 79% */
+color: #222222;
+
+}
+
+.documentation{
+    /* Documentation */
+position: absolute;
+width: 79.7px;
+height: 13.17px;
+left: 562.76px;
+top: 2630.89px;
+
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+color: #1616B3;
+}
+
+.security{
+    /* Security */
+position: absolute;
+width: 41.58px;
+height: 13.17px;
+left: 562.76px;
+top: 2650.54px;
+
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+color: #1616B3;
+
+}
+
+.mobility{
+    /* Mobility Guide */
+position: absolute;
+width: 74.16px;
+height: 13.17px;
+left: 562.76px;
+top: 2670.18px;
+
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+
+color: #1616B3;
+}
+
+.FAQS{
+/* FAQs */
+position: absolute;
+width: 26.34px;
+height: 13.17px;
+left: 562.76px;
+top: 2690.82px;
+
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+color: #1616B3;
+}
+
+.footerlink4{
+position: absolute;
+font-family: 'Gilroy';
+font-style: normal;
+display: flex;
+align-items: center;
+list-style-type: none;
+
+}
+
+.legal{
+/* Legal */
+position: absolute;
+width: 42.97px;
+height: 13.17px;
+left: 785.92px;
+top: 2600px;
+font-weight: 600;
+font-size: 16.6333px;
+line-height: 13px;
+color: #222222;
+}
+
+.Terms{
+    /* Terms of Service */
+position: absolute;
+width: 82.47px;
+height: 13.17px;
+left: 785.92px;
+top: 2630.89px;
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+color: #1616B3;
+
+}
+
+.privacypolicy{
+    /* Privacy Policy */
+position: absolute;
+width: 69.31px;
+height: 13.17px;
+left: 785.92px;
+top: 2650.54px;
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+color: #1616B3;
+
+}
+
+.cookie{
+    /* Cookie Information */
+position: absolute;
+width: 97.72px;
+height: 13.17px;
+left: 780.92px;
+top: 2670.18px;
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+text-align: center;
+color: #1616B3;
+}
+
+.GDPR{
+    /* GDPR Commitment */
+position: absolute;
+width: 99.8px;
+height: 13.17px;
+left: 785.92px;
+top: 2690.82px;
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+color: #1616B3;
+
+}
+
+.vector15{
+    /* Vector */
+position: absolute;
+width: 120.18px;
+height: 120.18px;
+left: 918.99px;
+top: 3423.69px;
+
+}
+
+.relationz4{
+    /* Relationz */
+position: absolute;
+width: 72.08px;
+height: 20.1px;
+left: 462.96px;
+top: 3570.16px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 16.6531px;
+line-height: 20px;
+/* identical to box height */
+text-align: center;
+color: #222222;
+}
+
+.copyright{
+    /* Copyright © 2010 - 2019 Relationz Ltd. All rights reserved. */
+position: absolute;
+width: 289px;
+height: 13.17px;
+left: 354.15px;
+top: 3603.89px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 11.0889px;
+line-height: 13px;
+text-align: center;
+color: #1616B3;
 
 }
