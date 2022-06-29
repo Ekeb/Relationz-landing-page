@@ -70,7 +70,7 @@ border: 0 solid #000000;
 
 .img1{
  position: absolute;
- left: 11.5%;
+ left: 6.5%;
  top: 29.5%;
  bottom: 93.55%;
  float: center;
@@ -335,17 +335,17 @@ border-radius: 38.2047px;
 }
 
 aside2{
-    box-sizing: border-box;
-    position: absolute;
-    width: 792.86px;
-    height: 495.53px;
-    left: 105px;
-    top: 827px;
+box-sizing: border-box;
+position: absolute;
+width: 792.86px;
+height: 495.53px;
+left: 105px;
+top: 827px;
     
-    background: #F5F5FB;
-    border: 0.550594px solid #EAEDF3;
-    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
-    border-radius: 20.7917px;
+background: #F5F5FB;
+border: 0.550594px solid #EAEDF3;
+box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+border-radius: 20.7917px;
 }
 
 .relationz2{
@@ -449,10 +449,10 @@ top: 225.08px;
 }
 
 .grouping{
-    margin-top: 15px;
-    margin-left: 30px;
-    color: #222222;
-    opacity: 0.3;
+margin-top: 15px;
+margin-left: 30px;
+color: #222222;
+opacity: 0.3;
 }
 
 .grouping2{
@@ -470,6 +470,7 @@ margin-left: 30px;
 color: #222222;
 opacity: 0.3;
 }
+
 .messages2{
   /* Vector */
 position: absolute;
@@ -511,18 +512,18 @@ border-radius: 5.54444px;
 }
 
 .logout2{
-    position: absolute;
-    width: 13.51px;
-    height: 15.48px;
-    left: 85.56px;
-    top: 5px; 
-    border-radius: 2px solid blue;  
-    background: #1616B3; 
+position: absolute;
+width: 13.51px;
+height: 15.48px;
+left: 85.56px;
+top: 5px; 
+border-radius: 2px solid blue;  
+background: #1616B3; 
 }
 
 
 .search1{
-    border: 1px solid green;
+border: 1px solid green;
 }
 
 nav2{
@@ -542,8 +543,8 @@ border-radius: 29.8014px;
 }
 
 .search{
-    margin-right: 10px;
-    margin-left:10px
+margin-right: 10px;
+margin-left:10px
 }
 
 h6 p{
@@ -558,21 +559,21 @@ opacity: 0.4;
 }
 .new{
 
-    border: px solid violet;
-    background: #1943EF;
-    border-radius:29.8014px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 7px;
-    margin-left: -120px;
-    color: #ffffff; 
+border: px solid violet;
+background: #1943EF;
+border-radius:29.8014px;
+padding-right: 30px;
+padding-left: 30px;
+padding-top: 7px;
+margin-left: -120px;
+color: #ffffff; 
 
 }
 
 .notif{
-    margin-right: 100px;
-    margin-left: -80px;
-    background-color: #ffffff;
+margin-right: 100px;
+margin-left: -80px;
+background-color: #ffffff;
 }
 
 .sett{
@@ -625,9 +626,8 @@ nav3 h5{
     /* Vector */
 position: absolute;
 width: 595.33px;
-    height: 127.52px;
-    left: 20.89px;
-
+height: 127.52px;
+left: 20.89px;
 top: -15.0px;
 background: rgba(255, 255, 255, 0.2);
 }
@@ -641,6 +641,7 @@ background: rgba(255, 255, 255, 0.2);
     border-radius: 22.1778px;
 }
 
+
 nav4{
     position: absolute;
     width: 284.85px;
@@ -652,27 +653,34 @@ nav4{
     border-radius: 11.0889px;
 
 }
-
-nav4 p{
-    /* Group */
+.upcoming{
 position: absolute;
-width: 12.48px;
-height: 2.77px;
-left: 537.81px;
-top: 1026.42px;
-list-style-type: none;
-opacity: 0.4;
+width: 101.88px;
+height: 13.17px;
+top: -10.18px;
+left: 10px;
+/* Black */
+color: #222222;
+}
+
+.dots{
+/* Group */
+position: absolute;
+left: 250px;
+font-size: 14px;
+color: rgba(34, 34, 34, 0.6);
 }
 
 .person{
 /* Rectangle */
 position: absolute;
-width: 182.67px;
+width: 220.67px;
 height: 24.95px;
-left:30px;
+left:12px;
 top: 32.06px;
 display: flex;
 justify-content: space-around;
+list-style-type: none;
 /* Black */
 background: #f0f0f0;
 border-radius: 5.54444px;
@@ -684,8 +692,8 @@ border-radius: 5.54444px;
 position: absolute;
 width: 130.49px;
 height: 11.78px;
-left:50px;
-top: -30.06px;
+left:10px;
+top: -32.06px;
 font-family: 'Gilroy';
 font-style: normal;
 font-weight: 600;
@@ -700,10 +708,10 @@ color: #222222;
 .last{
 /* Last met on */
 position: absolute;
-width: 52.67px;
+width: 200.67px;
 height: 11.78px;
-left: 390.19px;
-top: -30.06px;
+left: 100.19px;
+top: -32.06px;
 
 font-family: 'Gilroy';
 font-style: normal;
@@ -718,10 +726,10 @@ color: #222222;
 .meeting{
 /* Meeting date */
 position: absolute;
-width: 60.99px;
+width: 200.99px;
 height: 11.78px;
-left: 400.44px;
-top: -30.06px;
+left: 190.44px;
+top: -32.06px;
 font-family: 'Gilroy';
 font-style: normal;
 font-weight: 600;
@@ -729,21 +737,431 @@ font-size: 9.70278px;
 line-height: 12px;
 /* identical to box height */
 /* Black */
-color: #222222;
+color: #222222; 
 }
+
+
+.Archana1{
+position: absolute;    
+width: 150px;
+display: flex;
+left: 15px;
+top: 50px;
+align-items: baseline;
+color: rgba(34, 34, 34, 0.6);
+display: flex;
+}
+
+.Surojit1{
+    position: absolute;
+    width: 150px;
+    display: flex;
+    left: 15px;
+    top: 90px;
+    align-items: baseline;
+    color: rgba(34, 34, 34, 0.6);
+
+}
+
+.Surbhi1{
+    position: absolute;
+    width: 150px;
+    display: flex;
+    left: 15px;
+    top: 130px;   
+    align-items: baseline;  
+    color: rgba(34, 34, 34, 0.6);
+}
+
+.William1{
+    position: absolute;
+    width: 150px;
+    display: flex;
+    left: 15px;
+    top: 170px;
+    align-items: baseline;
+    color: rgba(34, 34, 34, 0.6); 
+}
+
+.line1{
+/* Line */
+position: absolute;
+width: 238.81px;
+height: 0px;
+left: 27.48px;
+top: 103.28px;
+
+opacity: 0.6;
+border: 0.693056px solid #EAEDF3;
+}
+
+.date1{
+    position: absolute;    
+    width: 150px;
+    display: flex;
+    left: 110px;
+    top: 57px;
+    color: rgba(34, 34, 34, 0.6);     
+}
+
+.date2{
+    position: absolute;    
+    width: 150px;
+    display: flex;
+    left: 110px;
+    top: 98px;
+    color: rgba(34, 34, 34, 0.6);
+}
+
+.date3{
+    position: absolute;    
+    width: 150px;
+    display: flex;
+    left: 110px;
+    top: 138px;
+    color: rgba(34, 34, 34, 0.6);    
+}
+
+.date4{
+    position: absolute;    
+    width: 150px;
+    display: flex;
+    left: 110px;
+    top: 178px;
+    color: rgba(34, 34, 34, 0.6);
+    
+}
+
+.line2{
+    /* Line */
+    position: absolute;
+    width: 238.81px;
+    height: 0px;
+    left: 27.48px;
+    top: 150.28px;
+    
+    opacity: 0.6;
+    border: 0.693056px solid #EAEDF3;
+    }
+
+.date5{
+    position: absolute;    
+    width: 150px;
+    left: 200px;
+    top: 57px;
+    color: rgba(34, 34, 34, 0.6);
+    list-style-type: none;
+}
+
+.date6{
+    position: absolute;    
+    width: 150px;
+    left: 200px;
+    top: 98px;
+    color: rgba(34, 34, 34, 0.6);
+    list-style-type: none;
+}
+
+.date7{
+    position: absolute;    
+    width: 150px;
+    left: 200px;
+    top: 138px;
+    color: rgba(34, 34, 34, 0.6);
+    list-style-type: none;
+}
+
+.date8{
+    position: absolute;    
+    width: 150px;
+    left: 200px;
+    top: 178px;
+    color: rgba(34, 34, 34, 0.6);
+    list-style-type: none;
+}
+
+.line3{
+    /* Line */
+    position: absolute;
+    width: 238.81px;
+    height: 0px;
+    left: 27.48px;
+    top: 190.28px;
+    
+    opacity: 0.6;
+    border: 0.693056px solid #EAEDF3;
+    }
 
 
 nav5{
     position: absolute;
     width: 284.85px;
     height: 255.74px;
-    left: 420.46px;
+    left: 490.46px;
     top: 225.54px;
     background: #FFFFFF;
     box-shadow: 0px 5.54444px 27.7222px rgba(0, 0, 0, 0.05);
     border-radius: 11.0889px;
+}
+
+.Recently{
+position: absolute;
+width: 101.88px;
+height: 13.17px;
+top: -10.18px;
+left: 10px;
+/* Black */
+color: #222222;    
+}
+
+.dots2{
+    /* Group */
+position: absolute;
+left: 250px;
+font-size: 14px;
+color: rgba(34, 34, 34, 0.6);
+    }
+
+
+.person3{
+ /* Rectangle */
+    position: absolute;
+    width: 220.67px;
+    height: 24.95px;
+    left:12px;
+    top: 32.06px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    /* Black */
+    background: #f0f0f0;
+    border-radius: 5.54444px;
+}
+        
+        
+.person4{
+     /* Person */
+    position: absolute;
+    width: 130.49px;
+    height: 11.78px;
+    left:10px;
+    top: -32.06px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.70278px;
+    line-height: 12px;
+    /* identical to box height */
+    /* Black */
+    color: #222222;
+        
+}
+        
+.Role{
+    /* Last met on */
+    position: absolute;
+    width: 200.67px;
+    height: 11.78px;
+    left: 100.19px;
+    top: -32.06px;
+        
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.70278px;
+    line-height: 12px;
+    /* identical to box height */
+    /* Black */
+    color: #222222;
+ }
+        
+.Email2{
+    /* Meeting date */
+    position: absolute;
+    width: 200.99px;
+    height: 11.78px;
+    left: 190.44px;
+    top: -32.06px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.70278px;
+    line-height: 12px;
+    /* identical to box height */
+    /* Black */
+    color: #222222; 
+}
+        
+        
+.Aditya{
+    position: absolute;    
+    width: 150px;
+    display: flex;
+    left: 15px;
+    top: 50px;
+    align-items: baseline;
+    color: rgba(34, 34, 34, 0.6);
+    display: flex;
+ }
+        
+.Bhawna{
+    position: absolute;
+    width: 150px;
+    display: flex;
+    left: 15px;
+    top: 90px;
+    align-items: baseline;
+    color: rgba(34, 34, 34, 0.6);
+        
+}
+        
+.Sukalp{
+    position: absolute;
+    width: 150px;
+    display: flex;
+    left: 15px;
+    top: 130px;   
+    align-items: baseline;  
+    color: rgba(34, 34, 34, 0.6);
+        }
+        
+.Jenna{
+    position: absolute;
+    width: 150px;
+    display: flex;
+    left: 15px;
+    top: 170px;
+    align-items: baseline;
+    color: rgba(34, 34, 34, 0.6); 
+}
+        
+ .line4{
+    /* Line */
+    position: absolute;
+    width: 238.81px;
+    height: 0px;
+    left: 27.48px;
+    top: 103.28px;
+        
+    opacity: 0.6;
+    border: 0.693056px solid #EAEDF3;
+ }
+        
+.Role1{
+    position: absolute;    
+    width: 150px;
+    display: flex;
+    left: 110px;
+    top: 57px;
+    color: rgba(34, 34, 34, 0.6);     
+ }
+        
+.Role2{
+    position: absolute;    
+    width: 150px;
+    display: flex;
+    left: 110px;
+    top: 98px;
+    color: rgba(34, 34, 34, 0.6);
+}
+        
+.Role3{
+    position: absolute;    
+    width: 150px;
+    display: flex;
+    left: 110px;
+    top: 138px;
+    color: rgba(34, 34, 34, 0.6);    
+}
+        
+.Role4{
+    position: absolute;    
+    width: 150px;
+    display: flex;
+    left: 110px;
+    top: 178px;
+    color: rgba(34, 34, 34, 0.6);
+            
+}
+        
+.line5{
+    /* Line */
+    position: absolute;
+    width: 238.81px;
+    height: 0px;
+    left: 27.48px;
+    top: 150.28px;
+            
+    opacity: 0.6;
+    border: 0.693056px solid #EAEDF3;
+}
+        
+.send1{
+    position: absolute;    
+    width: 30px;
+    left: 220px;
+    top: 57px;
+    color: rgba(34, 34, 34, 0.6);
+    list-style-type: none;
+    padding: 5px;
+    color: #26C296;
+    background: rgba(38, 194, 150, 0.1);
+    border-radius: 2.77222px;
+}
+        
+.sent{
+    position: absolute;    
+    width: 30px;
+    left: 220px;
+    top: 98px;
+    color: rgba(34, 34, 34, 0.6);
+    list-style-type: none;
+    padding: 5px;
+    color: #26C296;
+    background: rgba(38, 194, 150, 0.1);
+    border-radius: 2.77222px;
+}
+
+        
+.send2{
+    position: absolute;    
+    width: 30px;
+    left: 220px;
+    top:138px;
+    color: rgba(34, 34, 34, 0.6);
+    list-style-type: none;
+    padding: 5px;
+    color: #26C296;
+    background: rgba(38, 194, 150, 0.1);
+    border-radius: 2.77222px;
+}
+        
+.send3{
+    position: absolute;    
+    width: 30px;
+    left: 220px;
+    top: 178px;
+    color: rgba(34, 34, 34, 0.6);
+    list-style-type: none;
+    padding: 5px;
+    color: #26C296;
+    background: rgba(38, 194, 150, 0.1);
+    border-radius: 2.77222px;
 
 }
+        
+.line6{
+    /* Line */
+    position: absolute;
+    width: 238.81px;
+    height: 0px;
+    left: 27.48px;
+    top: 190.28px;
+            
+    opacity: 0.6;
+    border: 0.693056px solid #EAEDF3;
+            }
+
 
 .group2{
     position: absolute;
@@ -752,22 +1170,6 @@ nav5{
     top: 90.52%;
     bottom: 64.79%;
     z-index:-1;
-}
-
-nav4{
-    display: flex;
-    
-}
-.upcoming{
-font-family: 'Gilroy';
-font-style: normal;
-font-weight: 600;
-font-size: 11.0889px;
-line-height: 13px;
-color: #222222;
-margin-left: 20px;
-justify-content: space-around;
-
 }
 
 
@@ -835,7 +1237,7 @@ nav6{
     width: 379.79px;
     height: 50.53px;
     margin-left: 0px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: -15px;
     padding-top: 20px;
     padding-left: 10px;
